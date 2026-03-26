@@ -19,13 +19,25 @@
             #region Q3
             // a generic class can use more than one type placeholder
 
-        //class pair<TKey, TValue>
-        // {
-        //    public TKey key;
-        //    public TValue value;
-        // }
-        #endregion
-    }
+            //class pair<TKey, TValue>
+            // {
+            //    public TKey key;
+            //    public TValue value;
+            // }
+            #endregion
+            #region Q4
+            // A generic method declares its own type parameter(s), It can exist in both generic and non-generic classes
+            // The compiler often infers the type argument
+
+            //void Swap<T>(ref T a, ref T b)
+            //{
+            //    T temp = a;
+            //    a = b;
+            //    b = temp;
+            //}
+            #endregion
+        }
+
        
 
     }
