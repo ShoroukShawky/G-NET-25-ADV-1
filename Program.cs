@@ -9,14 +9,25 @@
             // reusability, type safety, no casting
             #endregion
             #region Q2
-        //      class Container<T>
-        //{
-        //    public T item;
-        //    public void Add(T value) => item = value;
-        //    public T Get() => item;
-        //}
+            //      class Container<T>
+            //{
+            //    public T item;
+            //    public void Add(T value) => item = value;
+            //    public T Get() => item;
+            //}
+            #endregion
+            #region Q3
+            // a generic class can use more than one type placeholder
+
+        //class pair<TKey, TValue>
+        // {
+        //    public TKey key;
+        //    public TValue value;
+        // }
         #endregion
     }
+       
+
     }
-   
+
 }
