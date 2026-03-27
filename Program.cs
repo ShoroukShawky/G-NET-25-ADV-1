@@ -178,6 +178,12 @@ namespace G_NET_25_ADV_1
 
 
             #endregion
+            #region Q19
+            // we can inherit from a generic class by diffrent ways:
+            // 1- inherit and pass type parameter
+            // 2- inherit with concrete type
+            // 3- add new type parameter
+            #endregion
 
         }
     }
