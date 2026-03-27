@@ -115,15 +115,20 @@
 
             #endregion
             #region Q12
-             //public class MyClass<T> where T : class, IComparable<T>, new()
-             //{
-             //    public T Create()
-             //    {
-             //   return new T();
-             //    }
-             //}
-        #endregion
-    }
+            //public class MyClass<T> where T : class, IComparable<T>, new()
+            //{
+            //    public T Create()
+            //    {
+            //   return new T();
+            //    }
+            //}
+            #endregion
+            #region Q13
+            // default returns the default value for type T
+            // null for reference types
+            // 0 or false for value types
+            #endregion
+        }
     }
 
 }
