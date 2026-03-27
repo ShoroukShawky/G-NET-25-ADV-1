@@ -1,4 +1,6 @@
-﻿namespace G_NET_25_ADV_1
+﻿using System.Diagnostics.Metrics;
+
+namespace G_NET_25_ADV_1
 {
     internal class Program
     {
@@ -154,15 +156,39 @@
             // in keyword is used to indicate that the type parameter is only used as a method parameter and not returned
             #endregion
             #region Q17
-           // covariance (out):
-           // works with output(return values)
-           // allows using a more specific type
+            // covariance (out):
+            // works with output(return values)
+            // allows using a more specific type
 
-           //contravariance(in):
-           //works with input(parameters)
-           //allows using a more general type
+            //contravariance(in):
+            //works with input(parameters)
+            //allows using a more general type
             #endregion
+            #region Q18
+            // each closed generic type has its own copy of static fields
+
+            // Ex:
+            //var a = new MyClass<int>(); 
+            //var b = new MyClass<string>(); 
+            //var c = new MyClass<string>(); 
+
+            //Console.WriteLine(MyClass<int>.count); // 1
+            //Console.WriteLine(MyClass<string>.count); // 2
+
+
+
+            #endregion
+
         }
     }
+     class MyClass<T>
+    {
+        public static int count = 0;
+        public MyClass()
+        {
+            count++;
+        }
+    }
+
 
 }
