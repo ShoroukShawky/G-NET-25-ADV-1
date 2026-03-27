@@ -129,21 +129,25 @@
             // 0 or false for value types
             #endregion
             #region Q14
-        //    class SafeList<T>
-        //{
-        //    List<T> items = new();
+            //    class SafeList<T>
+            //{
+            //    List<T> items = new();
 
-        //    public void Add(T item) { items.Add(item); }
+            //    public void Add(T item) { items.Add(item); }
 
-        //    public T GetAt(int index)
-        //    {
-        //        if (index >= 0 && index < items.Count)
-        //        {
-        //            return items[index];
-        //        }
-        //        return default(T);
-        //    }
-        //}
+            //    public T GetAt(int index)
+            //    {
+            //        if (index >= 0 && index < items.Count)
+            //        {
+            //            return items[index];
+            //        }
+            //        return default(T);
+            //    }
+            //}
+            #endregion
+            #region Q15
+            // Covariance allows you to use a more derived type than originally specified. Marked with out keyword
+            // T can only appear in output positions
             #endregion
         }
     }
