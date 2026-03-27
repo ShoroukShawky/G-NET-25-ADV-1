@@ -153,6 +153,15 @@
             // Contravariance allows you to use a less derived type than originally specified. Marked with in keyword
             // in keyword is used to indicate that the type parameter is only used as a method parameter and not returned
             #endregion
+            #region Q17
+           // covariance (out):
+           // works with output(return values)
+           // allows using a more specific type
+
+           //contravariance(in):
+           //works with input(parameters)
+           //allows using a more general type
+            #endregion
         }
     }
 
