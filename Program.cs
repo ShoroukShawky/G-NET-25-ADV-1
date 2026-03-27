@@ -147,7 +147,11 @@
             #endregion
             #region Q15
             // Covariance allows you to use a more derived type than originally specified. Marked with out keyword
-            // T can only appear in output positions
+            // The out keyword is used to indicate that the type parameter is only used for return values and not as input
+            #endregion
+            #region Q16
+            // Contravariance allows you to use a less derived type than originally specified. Marked with in keyword
+            // in keyword is used to indicate that the type parameter is only used as a method parameter and not returned
             #endregion
         }
     }
