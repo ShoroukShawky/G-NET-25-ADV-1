@@ -70,10 +70,21 @@
             #region Q8
             // T must be a reference type
 
-        //  class MyClass<T> where T : class 
-        //{
-        //    public T Value;
-        //}
+            //  class MyClass<T> where T : class 
+            //{
+            //    public T Value;
+            //}
+            #endregion
+            #region Q9
+            // T must have parameterless constructor
+
+            //  class MyClass<T> where T : new() 
+            //{
+            //    public T Create
+            //    {
+            //           return new T();
+            //    }
+            //}
             #endregion
         }
 
