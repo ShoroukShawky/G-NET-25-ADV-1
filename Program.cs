@@ -86,6 +86,14 @@
             //    }
             //}
             #endregion
+            #region Q10
+            // T must implement interface
+
+            //  class MyClass<T> where T : IComparable<T> 
+            //{
+            //    public T Value;
+            //}
+            #endregion
         }
 
 
