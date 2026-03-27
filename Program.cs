@@ -94,10 +94,27 @@
             //    public T Value;
             //}
             #endregion
+            #region Q11
+            // T must inherit from BaseClass
+
+            //   class Animal
+            //{
+            //    public string Name { get; set; }
+            //    public string Speak()
+            //    {
+            //        return "";
+            //    }
+
+            //}
+
+            //class AnimalShelter<T> where T : Animal
+            //{ 
+            //    public string Name { get; set; }
+            //}
+
+
+            #endregion
         }
-
-
-
     }
 
 }
