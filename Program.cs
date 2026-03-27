@@ -59,15 +59,23 @@
             #region Q7
             // T must be a value type
 
-        //    class MyClass<T> where T : struct
-        //{
-        //     public T x;
-        //}
+            //    class MyClass<T> where T : struct
+            //{
+            //     public T x;
+            //}
 
-        //MyClass<int> x = new MyClass<int>; // allowed
-        //MyClass<string> y = new MyClass<string>; // error
-        #endregion
-    }
+            //MyClass<int> x = new MyClass<int>; // allowed
+            //MyClass<string> y = new MyClass<string>; // error
+            #endregion
+            #region Q8
+            // T must be a reference type
+
+        //  class MyClass<T> where T : class 
+        //{
+        //    public T Value;
+        //}
+            #endregion
+        }
 
 
 
