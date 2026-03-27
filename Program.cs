@@ -114,7 +114,16 @@
 
 
             #endregion
-        }
+            #region Q12
+             //public class MyClass<T> where T : class, IComparable<T>, new()
+             //{
+             //    public T Create()
+             //    {
+             //   return new T();
+             //    }
+             //}
+        #endregion
+    }
     }
 
 }
