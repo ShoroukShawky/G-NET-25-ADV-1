@@ -184,10 +184,45 @@ namespace G_NET_25_ADV_1
             // 2- inherit with concrete type
             // 3- add new type parameter
             #endregion
+            #region Q20
+            //  class Cache<TKey, TValue>
+            //{
+            //    private Dictionary<TKey, (TValue value, DateTime expire)> map = new Dictionary<TKey, (TValue, DateTime)>();
+            //    public void Add(TKey key, TValue value, int sec)
+            //    {
+            //        map[key] = (value, DateTime.Now.AddSeconds(sec));
+            //    }
+
+            //    public void Remove(TKey key)
+            //    {
+            //        map.Remove(key);
+            //    }
+
+            //    public bool contains(TKey key)
+            //    {
+            //        return map.ContainsKey(key);
+            //    }
+
+            //    public TValue Get(TKey key)
+            //    {
+            //        if (map.ContainsKey(key))
+            //        {
+            //            var value = map[key];
+            //            if (DateTime.Now < value.expire)
+            //                return value.value;
+            //            map.Remove(key);
+            //        }
+            //        return default;
+            //    }
+
+
+            #endregion
 
         }
     }
-     class MyClass<T>
+
+
+    class MyClass<T>
     {
         public static int count = 0;
         public MyClass()
@@ -195,6 +230,8 @@ namespace G_NET_25_ADV_1
             count++;
         }
     }
-
-
 }
+    
+    
+
+
